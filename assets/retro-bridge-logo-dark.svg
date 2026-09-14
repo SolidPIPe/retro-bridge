@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="966" height="112" viewBox="0 0 966 112" role="img" aria-labelledby="title">
+  <title id="title">Retro-Bridge — Signal Bridge</title>
+  <g fill="#000000" fill-rule="evenodd">
+    <g transform="translate(0 8.5) scale(1.1875)"><path d="M0 48H16V32H32V16H48V0H80V16H96V32H112V48H128V80H96V48H80V32H48V48H32V80H0Z"/></g>
+    <g transform="translate(192 16)"><path transform="translate(0 0)" d="M0 80V0H42L58 16V36L45 49L62 80H42L24 52H16V80Z M16 16V36H34L42 28V24L34 16Z"/>
+    <path transform="translate(74 0)" d="M0 0H54V16H16V32H46V48H16V64H54V80H0Z"/>
+    <path transform="translate(140 0)" d="M0 0H60V16H38V80H22V16H0Z"/>
+    <path transform="translate(212 0)" d="M0 80V0H42L58 16V36L45 49L62 80H42L24 52H16V80Z M16 16V36H34L42 28V24L34 16Z"/>
+    <path transform="translate(286 0)" d="M16 0H44L60 16V64L44 80H16L0 64V16Z M20 16L16 20V60L20 64H40L44 60V20L40 16Z"/>
+    <path transform="translate(358 0)" d="M0 32H32V48H0Z"/>
+    <path transform="translate(402 0)" d="M0 0H42L58 16V30L48 40L60 52V64L44 80H0Z M16 16V32H34L42 24L34 16Z M16 48V64H36L44 56L36 48Z"/>
+    <path transform="translate(474 0)" d="M0 80V0H42L58 16V36L45 49L62 80H42L24 52H16V80Z M16 16V36H34L42 28V24L34 16Z"/>
+    <path transform="translate(548 0)" d="M0 0H16V80H0Z"/>
+    <path transform="translate(576 0)" d="M0 0H40L60 20V60L40 80H0Z M16 16V64H34L44 54V26L34 16Z"/>
+    <path transform="translate(648 0)" d="M16 0H60V16H22L16 22V58L22 64H44V48H32V32H60V80H16L0 64V16Z"/>
+    <path transform="translate(720 0)" d="M0 0H54V16H16V32H46V48H16V64H54V80H0Z"/></g>
+  </g>
+</svg>
