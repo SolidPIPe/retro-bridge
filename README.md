@@ -48,7 +48,7 @@ Some USB-C OTG adapters may be incompatible. Buy from a retailer where you can r
 ### Installation Instructions (USB):
 1. Download the latest version of Retro-Bridge from the [Releases page](https://github.com/solidpipe/retro-bridge/releases/latest). 
 2. Hold the BOOTSEL button on the Pico as you're plugging the Micro USB to your computer. It should open as a drive in your Explorer.
-3. Copy the `.uf2` file to the root of that drive. After the copy, the drive will disappear and the drive will disappear. You can unplug the Pico from the computer now.
+3. Copy the `.uf2` file to the root of that drive. After the copy, the drive will disappear. You can unplug the Pico from the computer now.
 4. Plug the Pico to the USB-C OTG adapter connected to the Tink. Connect the USB-C power supply to the USB-C OTG adapter. With everything powered on, the Pico will blink the LED.
 5. Connect to the Wi-Fi network called "Retro-Bridge-XXXX". A captive portal page should open after about ~10 seconds.
 6. Select your Wi-Fi network and enter your password. Hit Connect. If successful, the Pico will connect to your Wi-Fi and the captive portal should close on its own.
@@ -69,7 +69,7 @@ RetroTINK devices expose serial connection over the HD-15 port on pins 12 (TX) a
 1. Download the latest version of Retro-Bridge from the [Releases page](https://github.com/solidpipe/retro-bridge/releases/latest). 
 2. Make sure no HD-15 cables between the Pico and the Tink are connected.
 3. Hold the BOOTSEL button on the Pico as you're plugging the Micro USB to your computer. It should open as a drive in your Explorer.
-4. Copy the `.uf2` file to the root of that drive. After the copy, the drive will disappear and the drive will disappear. You can unplug the Pico from the computer now.
+4. Copy the `.uf2` file to the root of that drive. After the copy, the drive will disappear. You can unplug the Pico from the computer now.
 5. Plug the Pico to USB power or the USB-C OTG adapter connected to the Tink. With everything powered on, the Pico will blink the LED.
 6. Connect the HD-15 cable between the Pico and the Tink.
 7. Connect to the Wi-Fi network called "Retro-Bridge-XXXX". A captive portal page should open after about ~10 seconds.
