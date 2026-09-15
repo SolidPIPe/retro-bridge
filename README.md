@@ -92,7 +92,7 @@ RetroTINK devices expose serial connection over the HD-15 port on pins 12 (TX) a
 I can't connect Retro-Bridge to my Wi-Fi, or my Wi-Fi connection is unstable:
 - Make sure you're connecting to a 2.4GHz Wi-Fi connection. The Pico 2 W does not support 5GHz Wi-Fi.
 - Use WPA2 (recommended) or WPA2/3 Mixed mode networks. Pure WPA3 networks are not recommended.
-- Check the signal strength on [Retro-Bridge Dashboard](http://retro-bridge.local/). Move the device closer to your Wi-Fi access point and ensure no (metal) objects are surrounding the Pico.
+- Check the signal strength on the [Retro-Bridge Dashboard](http://retro-bridge.local/). Move the device closer to your Wi-Fi access point and ensure no (metal) objects are surrounding the Pico.
 
 I can't load http://retro-bridge.local/:
 - Make sure mDNS is allowed on your network
@@ -100,7 +100,7 @@ I can't load http://retro-bridge.local/:
 
 ## Changing Wi-Fi settings
 
-If you'd like to change your Wi-Fi settings, hold the BOOTSEL button on the Pico for ~8 seconds (When the LED starts blinking, you can release the button). This will put Retro-Bridge in recovery mode, from which you can select a different Wi-Fi network.
+If you'd like to change your Wi-Fi settings, hold the BOOTSEL button on the Pico for ~8 seconds (when the LED starts blinking, you can release the button). This will put Retro-Bridge in recovery mode, from which you can select a different Wi-Fi network.
 
 
 
