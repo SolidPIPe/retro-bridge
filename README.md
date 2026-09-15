@@ -57,7 +57,7 @@ Some USB-C OTG adapters may be incompatible. Buy from a retailer where you can r
 6. Select your Wi-Fi network and enter your password. Hit Connect. If successful, the Pico will connect to your Wi-Fi and the captive portal should close on its own.
 7. On your computer or phone, visit http://retro-bridge.local/. If you see the Retro-Bridge dashboard, the setup was successful!
 
-### HD-15 Connection (6X CE)
+## HD-15 Connection (6X CE)
 ⚠️ Note: HD-15 Serial connection requires advanced understanding of electronics. Miswiring may permanently damage your RetroTINK, the Pico, or both. Use at your own risk. ⚠️
 
 **I'm working on plug & play HD-15 Retro-Bridge boards. They're currently in prototype stage, and I'm hoping to have them available for purchase soon.**
