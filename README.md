@@ -63,6 +63,6 @@ Updating the Retro-Bridge is easy. Simply follow the installation instructions s
 | :--- | :---: | :---: | --- |
 | RetroTINK 4K Pro | ✅  | ✅ |
 | RetroTINK 4K CE | ✅ | ✅ |
-| RetroTINK 6X CE | ❌ | ✅ | 6X CE doesn't support serial USB. Compatible Retro-Bridge HD-15 boards will be available in the near future
+| RetroTINK 6X CE | ❌ | ✅ | 6X CE doesn't support serial over USB. Compatible Retro-Bridge HD-15 boards will be available in the near future
 
 <sub>*RetroTINK 5X, and 2X are not supported.</sub>
