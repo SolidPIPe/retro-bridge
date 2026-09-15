@@ -33,6 +33,9 @@ Retro-Bridge is based on a Raspberry Pi Pico 2 W, supports 2.4GHz Wi-Fi, and con
 <img src="assets/retro-bridge-dashboard.png" alt="Retro-Bridge Dashboard">
 </p>
 
+# Updating Retro-Bridge
+Updating the Retro-Bridge is easy. Simply follow the [installation instructions steps 1-4](#installation-instructions-usb). Retro-Bridge will remember your Wi-Fi credentials between firmware updates.
+
 # Setup
 
 ## Recommended: USB Connection (4K Pro/CE)
@@ -53,9 +56,6 @@ Some USB-C OTG adapters may be incompatible. Buy from a retailer where you can r
 5. Connect to the Wi-Fi network called "Retro-Bridge-XXXX". A captive portal page should open after about ~10-15 seconds (if it doesn't, visit http://192.168.4.1).
 6. Select your Wi-Fi network and enter your password. Hit Connect. If successful, the Pico will connect to your Wi-Fi and the captive portal should close on its own.
 7. On your computer or phone, visit http://retro-bridge.local/. If you see the Retro-Bridge dashboard, the setup was successful!
-
-## Updating Retro-Bridge
-Updating the Retro-Bridge is easy. Simply follow the installation instructions steps 1-4. Retro-Bridge will remember your Wi-Fi credentials between firmware updates.
 
 ### HD-15 Connection (6X CE)
 ⚠️ Note: HD-15 Serial connection requires advanced understanding of electronics. Miswiring may permanently damage your RetroTINK, the Pico, or both. Use at your own risk. ⚠️
