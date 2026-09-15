@@ -50,7 +50,7 @@ Some USB-C OTG adapters may be incompatible. Buy from a retailer where you can r
 2. Hold the BOOTSEL button on the Pico as you're plugging the Micro USB to your computer. It should open as a drive in your Explorer.
 3. Copy the `.uf2` file to the root of that drive. After the copy, the drive will disappear. You can unplug the Pico from the computer now.
 4. Plug the Pico to the USB-C OTG adapter connected to the Tink. Connect the USB-C power supply to the USB-C OTG adapter. With everything powered on, the Pico will blink the LED.
-5. Connect to the Wi-Fi network called "Retro-Bridge-XXXX". A captive portal page should open after about ~10 seconds.
+5. Connect to the Wi-Fi network called "Retro-Bridge-XXXX". A captive portal page should open after about ~10-15 seconds (if it doesn't, visit http://192.168.4.1).
 6. Select your Wi-Fi network and enter your password. Hit Connect. If successful, the Pico will connect to your Wi-Fi and the captive portal should close on its own.
 7. On your computer or phone, visit http://retro-bridge.local/. If you see the Retro-Bridge dashboard, the setup was successful!
 
@@ -72,7 +72,7 @@ RetroTINK devices expose serial connection over the HD-15 port on pins 12 (TX) a
 4. Copy the `.uf2` file to the root of that drive. After the copy, the drive will disappear. You can unplug the Pico from the computer now.
 5. Plug the Pico to USB power or the USB-C OTG adapter connected to the Tink. With everything powered on, the Pico will blink the LED.
 6. Connect the HD-15 cable between the Pico and the Tink.
-7. Connect to the Wi-Fi network called "Retro-Bridge-XXXX". A captive portal page should open after about ~10 seconds.
+7. Connect to the Wi-Fi network called "Retro-Bridge-XXXX". A captive portal page should open after about ~10-15 seconds (if it doesn't, visit http://192.168.4.1).
 8. Select your Wi-Fi network and enter your password. Hit Connect. If successful, the Pico will connect to your Wi-Fi and the captive portal should close on its own.
 9. On your computer or phone, visit http://retro-bridge.local/. If you see the Retro-Bridge dashboard, the setup was successful!
 
@@ -86,3 +86,22 @@ RetroTINK devices expose serial connection over the HD-15 port on pins 12 (TX) a
 | RetroTINK 6X CE | ❌ | ✅ | 6X CE doesn't support serial over USB. Compatible Retro-Bridge HD-15 boards will be available in the near future
 
 <sub>*RetroTINK 5X, and 2X are not supported.</sub>
+
+# Troubleshooting
+
+I can't connect Retro-Bridge to my Wi-Fi, or my Wi-Fi connection is unstable:
+- Make sure you're connecting to a 2.4GHz Wi-Fi connection. The Pico 2 W does not support 5GHz Wi-Fi.
+- Use WPA2 (recommended) or WPA2/3 Mixed mode networks. Pure WPA3 networks are not recommended.
+- Check the signal strength on [Retro-Bridge Dashboard](http://retro-bridge.local/). Move the device closer to your Wi-Fi access point and ensure no (metal) objects are surrounding the Pico.
+
+I can't load http://retro-bridge.local/:
+- Make sure mDNS is allowed on your network
+- Alternatively, check your Wi-Fi Gateway's client list to find your Retro-Bridge's IP address. 
+
+## Changing Wi-Fi settings
+
+If you'd like to change your Wi-Fi settings, hold the BOOTSEL button on the Pico for ~8 seconds (When the LED starts blinking, you can release the button). This will put Retro-Bridge in recovery mode, from which you can select a different Wi-Fi network.
+
+
+
+
