@@ -39,9 +39,9 @@ Retro-Bridge is based on a Raspberry Pi Pico 2 W, supports 2.4GHz Wi-Fi, and con
 
 ### Recommended: USB Connection (4K Pro/CE)
 You will need the following:
-- [Raspberry Pi Pico 2 W](https://amzn.to/3SLW5LT) (must be a Pico 2 W. It won't work on other models)
+- [Raspberry Pi Pico 2 W](https://amzn.to/3SLW5LT) (must be a Pico 2 W. Retro-Bridge won't work on other models)
 - Micro USB cable
-- [USB-C OTG adapter](https://amzn.to/4yG8znu) (This one has been working well)
+- [USB-C OTG adapter](https://amzn.to/4yG8znu) (this one has been working well)
 
 Some USB-C OTG adapters may be incompatible. Buy from a retailer where you can return them easily if needed. 
 
