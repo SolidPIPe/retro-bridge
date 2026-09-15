@@ -33,7 +33,7 @@ Retro-Bridge is based on a Raspberry Pi Pico 2 W, supports 2.4GHz Wi-Fi, and con
 <img src="assets/retro-bridge-dashboard.png" alt="Retro-Bridge Dashboard">
 </p>
 
-## Highlights:
+## Highlights
 
 - Supports USB or HD-15 connections (or both!) at full speeds:
   - Automatic failover between USB and HD-15 connections (if both are present)
