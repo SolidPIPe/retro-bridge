@@ -33,11 +33,11 @@ Retro-Bridge is based on a Raspberry Pi Pico 2 W, supports 2.4GHz Wi-Fi, and con
 <img src="assets/retro-bridge-dashboard.png" alt="Retro-Bridge Dashboard">
 </p>
 
-# Get Started
+# Setup
 
-## Setup
+## Recommended: USB Connection (4K Pro/CE)
+Connecting Retro-Bridge to the RetroTINK via USB is the easiest and the most performant connection method. This is likely how you'll be using Retro-Bridge.
 
-### Recommended: USB Connection (4K Pro/CE)
 You will need the following:
 - [Raspberry Pi Pico 2 W](https://amzn.to/3SLW5LT) (must be a Pico 2 W. Retro-Bridge won't work on other models)
 - Micro USB cable
@@ -45,7 +45,7 @@ You will need the following:
 
 Some USB-C OTG adapters may be incompatible. Buy from a retailer where you can return them easily if needed. 
 
-### Installation Instructions:
+### Installation Instructions (USB):
 1. Download the latest version of Retro-Bridge from the [Releases page](https://github.com/solidpipe/retro-bridge/releases/latest). 
 2. Hold the BOOTSEL button on the Pico as you're plugging the Micro USB to your computer. It should open as a drive in your Explorer.
 3. Copy the `.uf2` file to the root of that drive. After the copy, the drive will disappear and the drive will disappear. You can unplug the Pico from the computer now.
@@ -56,6 +56,26 @@ Some USB-C OTG adapters may be incompatible. Buy from a retailer where you can r
 
 ## Updating Retro-Bridge
 Updating the Retro-Bridge is easy. Simply follow the installation instructions steps 1-4. Retro-Bridge will remember your Wi-Fi credentials between firmware updates.
+
+### HD-15 Connection (6X CE)
+⚠️ Note: HD-15 Serial connection requires advanced understanding of electronics. Miswiring may permanently damage your RetroTINK, the Pico, or both. Use at your own risk. ⚠️
+
+**I'm working on plug & play HD-15 Retro-Bridge boards. They're currently in prototype stage, and I'm hoping to have them available for purchase soon.**
+
+RetroTINK devices expose serial connection over the HD-15 port on pins 12 (TX) and 15 (RX). Retro-Bridge uses GP8 (Pico pin 11) as TX and GP9 (Pico pin 12) as RX. 
+<br />⚠️ Important: You will need to add pull-up resistors between 3.3V Out (Pin 36) and pins 12 and 15. For more information, check out the RetroTINK Wiki: https://consolemods.org/wiki/AV:RetroTINK-4K#Serial_Over_USB_/_HD-15
+
+### Installation Instructions (HD-15):
+1. Download the latest version of Retro-Bridge from the [Releases page](https://github.com/solidpipe/retro-bridge/releases/latest). 
+2. Make sure no HD-15 cables between the Pico and the Tink are connected.
+3. Hold the BOOTSEL button on the Pico as you're plugging the Micro USB to your computer. It should open as a drive in your Explorer.
+4. Copy the `.uf2` file to the root of that drive. After the copy, the drive will disappear and the drive will disappear. You can unplug the Pico from the computer now.
+5. Plug the Pico to USB power or the USB-C OTG adapter connected to the Tink. With everything powered on, the Pico will blink the LED.
+6. Connect the HD-15 cable between the Pico and the Tink.
+7. Connect to the Wi-Fi network called "Retro-Bridge-XXXX". A captive portal page should open after about ~10 seconds.
+8. Select your Wi-Fi network and enter your password. Hit Connect. If successful, the Pico will connect to your Wi-Fi and the captive portal should close on its own.
+9. On your computer or phone, visit http://retro-bridge.local/. If you see the Retro-Bridge dashboard, the setup was successful!
+
 
 ## Hardware Compatibility
 
