@@ -33,6 +33,18 @@ Retro-Bridge is based on a Raspberry Pi Pico 2 W, supports 2.4GHz Wi-Fi, and con
 <img src="assets/retro-bridge-dashboard.png" alt="Retro-Bridge Dashboard">
 </p>
 
+## Highlights:
+
+- Supports USB or HD-15 connections (or both!) at full speeds:
+  - Automatic failover between USB and HD-15 connections (if both are present)
+  - Basic load balancing between USB and HD-15 connections (if both are present)
+    - e.g. if a File transfer is occupying USB, remote commands will still work over HD-15
+- Powered by a smart scheduler:
+  - Supports up to 8 connected apps/devices simultaneously
+  - Supports simultaneous HTTP and TCP communication with the clients
+- Beautiful dashboard with real-time data graphs
+- Apps can wake the RetroTink up from sleep!
+
 # Updating Retro-Bridge
 Updating the Retro-Bridge is easy. Simply follow the [installation instructions steps 1-4](#installation-instructions-usb). Retro-Bridge will remember your Wi-Fi credentials between firmware updates.
 
