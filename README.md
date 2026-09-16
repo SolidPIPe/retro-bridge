@@ -107,6 +107,7 @@ I can't connect Retro-Bridge to my Wi-Fi, or my Wi-Fi connection is unstable:
 - Check the signal strength on the [Retro-Bridge Dashboard](http://retro-bridge.local/). Move the device closer to your Wi-Fi access point and ensure no (metal) objects are surrounding the Pico.
 
 I can't load http://retro-bridge.local/:
+- Double-check you're connected to the same Wi-Fi or LAN network as Retro-Bridge
 - Make sure mDNS is allowed on your network
 - Alternatively, check your Wi-Fi Gateway's client list to find your Retro-Bridge's IP address. 
 
@@ -114,6 +115,8 @@ I can't load http://retro-bridge.local/:
 
 If you'd like to change your Wi-Fi settings, hold the BOOTSEL button on the Pico for ~8 seconds (when the LED starts blinking, you can release the button). This will put Retro-Bridge in recovery mode, from which you can select a different Wi-Fi network.
 
+# Special Thanks
 
-
-
+- [Mike Chi (retrotink2)](https://www.retrotink.com/): For adding amazing Serial capabilities to RetroTINK, and for guidance throughout this project
+- [Donutswdad](https://github.com/svirant/): For fun times nerding out over new serial capabilities (and pushing their limits). Check out his projects!
+- Bob from [RetroRGB](https://retrorgb.com/) and kimbapslice: For early testing and feedback. This project wouldn't be the same without your help ❤️
