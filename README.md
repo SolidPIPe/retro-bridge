@@ -50,6 +50,10 @@ Updating the Retro-Bridge is easy. Simply follow the [installation instructions 
 
 # Setup
 
+<p align="center">
+<img src="assets/retro-bridge-pico2w-usb.png" alt="Retro-Bridge USB Connection">
+</p>
+
 ## Recommended: USB Connection (4K Pro/CE)
 Connecting Retro-Bridge to the RetroTINK via USB is the easiest and the most performant connection method. This is likely how you'll be using Retro-Bridge.
 
