@@ -72,6 +72,7 @@ Some USB-C OTG adapters may be incompatible. Buy from a retailer where you can r
 5. Connect to the Wi-Fi network called "Retro-Bridge-XXXX". A captive portal page should open after about ~10-15 seconds (if it doesn't, visit http://192.168.4.1).
 6. Select your Wi-Fi network and enter your password. Hit Connect. If successful, the Pico will connect to your Wi-Fi and the captive portal should close on its own.
 7. On your computer or phone, visit http://retro-bridge.local/. If you see the Retro-Bridge dashboard, the setup was successful!
+8. Open [RetroTINK Remote](https://rt4k-remote.pipe.hr/), [RetroTINK Profiler](https://rt4k-profiler.pipe.hr/) (or any other compatible app), and connect!
 
 ## HD-15 Connection (6X CE)
 ⚠️ Note: HD-15 Serial connection requires advanced understanding of electronics. Miswiring may permanently damage your RetroTINK, the Pico, or both. Use at your own risk. ⚠️
@@ -91,6 +92,7 @@ RetroTINK devices expose serial connection over the HD-15 port on pins 12 (TX) a
 7. Connect to the Wi-Fi network called "Retro-Bridge-XXXX". A captive portal page should open after about ~10-15 seconds (if it doesn't, visit http://192.168.4.1).
 8. Select your Wi-Fi network and enter your password. Hit Connect. If successful, the Pico will connect to your Wi-Fi and the captive portal should close on its own.
 9. On your computer or phone, visit http://retro-bridge.local/. If you see the Retro-Bridge dashboard, the setup was successful!
+10. Open [RetroTINK Remote](https://rt4k-remote.pipe.hr/), [RetroTINK Profiler](https://rt4k-profiler.pipe.hr/) (or any other compatible app), and connect!
 
 
 ## Hardware Compatibility
