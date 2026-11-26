@@ -23,7 +23,7 @@ Retro-Bridge connects your devices to your RetroTINK wirelessly. It serves as a 
 
 Use apps like [RetroTINK Remote](https://rt4k-remote.pipe.hr/) and [RetroTINK Profiler](https://rt4k-profiler.pipe.hr/) from any device. Send remote commands, change settings live, update the firmware, manage files on the SD card, and more!
 
-Developer documentation for the Retro-Bridge protocol will be released soon. Build your own integrations, automations, and fun projects with your RetroTINK (with no wires in sight!).
+Build your own integrations, automations, and fun projects with your RetroTINK (with no wires in sight!). Check out the [Developer Guide](developer-guide.md). 
 
 Retro-Bridge is based on a Raspberry Pi Pico 2 W, supports 2.4GHz Wi-Fi, and connects to your RetroTINK via USB or HD-15.
 
